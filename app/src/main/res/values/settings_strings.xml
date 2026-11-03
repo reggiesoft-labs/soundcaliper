@@ -1,0 +1,35 @@
+<resources>
+    <string name="settings_microphone">Microphone</string>
+    <string name="settings_automatic">Automatic</string>
+    <string name="settings_section_display">DISPLAY</string>
+    <string name="settings_keep_awake">Keep screen awake</string>
+    <string name="settings_keep_awake_description">Prevent the display from sleeping during live monitoring.</string>
+    <string name="settings_section_meter">METER CALIBRATION</string>
+    <string name="settings_calibration_file">Calibration file</string>
+    <string name="settings_calibration_file_none">No file selected</string>
+    <string name="settings_calibration_file_description">Load a calibration file for a measurement microphone such as a miniDSP UMIK-1 (.txt or .cal). Corrects frequency response and sets reference level.</string>
+    <string name="settings_select_file">Select file</string>
+    <string name="settings_choose_different_file">Choose different file</string>
+    <string name="settings_remove_file">Remove calibration file</string>
+    <string name="settings_cal_points">%1$d points · %2$.0f Hz – %3$.0f Hz</string>
+    <string name="settings_sens_factor">Sensitivity factor: %1$.2f dB (Offset: %2$.1f dB)</string>
+    <string name="settings_active_file">Active file</string>
+    <string name="settings_calibration">Calibration</string>
+    <string name="settings_calibrated">User calibration is applied to readings.</string>
+    <string name="settings_not_calibrated">No user calibration applied.</string>
+    <string name="settings_about">About SoundCaliper</string>
+    <string name="settings_no_microphones">No microphone inputs are available.</string>
+    <string name="settings_selected">Selected</string>
+    <string name="settings_apply">Apply</string>
+    <string name="settings_calibration_explanation">Play a steady reference tone and compare the live reading with a trusted external sound level meter. Enter the known reference level to estimate a correction for this device. Results depend on the phone microphone and room conditions.</string>
+    <string name="settings_current_reading">Current reading</string>
+    <string name="settings_reference_level">Known reference level</string>
+    <string name="settings_reference_range">Enter a value from 30 to 130 dB.</string>
+    <string name="settings_microphone_required">Start live microphone measurement before calibrating.</string>
+    <string name="settings_calibrate">Apply calibration</string>
+    <string name="settings_reset_calibration">Reset calibration</string>
+    <string name="settings_about_version">Version 1.0.0</string>
+    <string name="settings_privacy">Audio is processed on this device. The app does not store or transmit microphone recordings.</string>
+    <string name="settings_license">This open source software is distributed under the MIT License.</string>
+    <string name="settings_meter_notice">This app is not a certified sound level meter. Phone microphones are not laboratory calibrated.</string>
+</resources>

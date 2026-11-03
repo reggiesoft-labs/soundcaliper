@@ -1,0 +1,23 @@
+<resources>
+  <string name="capture_error">Micrófono no disponible</string>
+  <string name="live">EN VIVO</string>
+  <string name="ready">LISTO</string>
+  <string name="clipping">SATURACIÓN</string>
+  <string name="mic_permission_title">Se necesita acceso al micrófono</string>
+  <string name="mic_permission_body">Permite el acceso al micrófono para medir el sonido. El audio permanece en este dispositivo.</string>
+  <string name="enable_microphone">Activar micrófono</string>
+  <string name="retry">Reintentar</string>
+  <string name="tab_meter">MEDIDOR</string>
+  <string name="tab_rta">RTA</string>
+  <string name="tab_settings">AJUSTES</string>
+  <string name="reset_readings">Restablecer mediciones</string>
+  <string name="fast">RÁPIDA</string>
+  <string name="slow">LENTA</string>
+  <string name="resume">Reanudar medición</string>
+  <string name="pause">Pausar medición</string>
+  <string name="calibrated_note">Estimación calibrada · no es un medidor certificado</string>
+  <string name="peak">MÁX</string>
+  <string name="average">LEQ</string>
+  <string name="dual_bar_description">Barras de nivel de sonido A y C, de 30 a 110 decibelios</string>
+  <string name="spectrum_description">Espectro de frecuencia de 20 hercios a 20 kilohercios; la línea discontinua muestra máximos</string>
+</resources>

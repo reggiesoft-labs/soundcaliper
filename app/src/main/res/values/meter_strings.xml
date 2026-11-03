@@ -1,0 +1,23 @@
+<resources>
+  <string name="capture_error">Microphone unavailable</string>
+  <string name="live">LIVE</string>
+  <string name="ready">READY</string>
+  <string name="clipping">CLIPPING</string>
+  <string name="mic_permission_title">Microphone access needed</string>
+  <string name="mic_permission_body">Allow microphone access to measure sound. Audio stays on this device.</string>
+  <string name="enable_microphone">Enable microphone</string>
+  <string name="retry">Try again</string>
+  <string name="tab_meter">METER</string>
+  <string name="tab_rta">RTA</string>
+  <string name="tab_settings">SETTINGS</string>
+  <string name="reset_readings">Reset readings</string>
+  <string name="fast">FAST</string>
+  <string name="slow">SLOW</string>
+  <string name="resume">Resume measurement</string>
+  <string name="pause">Pause measurement</string>
+  <string name="calibrated_note">User calibrated estimate · not a certified meter</string>
+  <string name="peak">PEAK</string>
+  <string name="average">AVG</string>
+  <string name="dual_bar_description">A and C weighted sound level bars, 30 to 110 decibels</string>
+  <string name="spectrum_description">Live frequency spectrum, 20 hertz to 20 kilohertz; dashed line holds maximum levels</string>
+</resources>

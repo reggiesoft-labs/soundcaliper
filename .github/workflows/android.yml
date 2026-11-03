@@ -1,0 +1,59 @@
+name: Android
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      upload_apks:
+        description: Upload APKs using available Actions artifact storage
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Test, lint, and build APKs
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+          log-accepted-android-sdk-licenses: false
+
+      - name: Install Android SDK packages
+        run: sdkmanager --install 'platforms;android-36.1' 'build-tools;36.1.0'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make wrapper executable
+        run: chmod +x ./gradlew
+
+      - name: Run checks and build APKs
+        run: ./gradlew --no-daemon testDebugUnitTest lintDebug assembleDebug assembleRelease
+
+      - name: Upload APKs
+        if: github.event_name == 'workflow_dispatch' && inputs.upload_apks
+        uses: actions/upload-artifact@v4
+        with:
+          name: decibel-apks
+          retention-days: 3
+          if-no-files-found: error
+          path: |
+            app/build/outputs/apk/debug/app-debug.apk
+            app/build/outputs/apk/release/app-release-unsigned.apk

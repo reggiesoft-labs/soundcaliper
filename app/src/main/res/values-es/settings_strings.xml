@@ -1,0 +1,35 @@
+<resources>
+    <string name="settings_microphone">Micrófono</string>
+    <string name="settings_automatic">Automático</string>
+    <string name="settings_section_display">PANTALLA</string>
+    <string name="settings_keep_awake">Mantener pantalla activa</string>
+    <string name="settings_keep_awake_description">Evita que la pantalla se apague durante la medición.</string>
+    <string name="settings_section_meter">CALIBRACIÓN DEL MEDIDOR</string>
+    <string name="settings_calibration_file">Archivo de calibración</string>
+    <string name="settings_calibration_file_none">Ningún archivo seleccionado</string>
+    <string name="settings_calibration_file_description">Carga un archivo de calibración para un micrófono de medición como un miniDSP UMIK-1 (.txt o .cal). Corrige la respuesta en frecuencia y establece el nivel de referencia.</string>
+    <string name="settings_select_file">Seleccionar archivo</string>
+    <string name="settings_choose_different_file">Elegir otro archivo</string>
+    <string name="settings_remove_file">Eliminar archivo de calibración</string>
+    <string name="settings_cal_points">%1$d puntos · %2$.0f Hz – %3$.0f Hz</string>
+    <string name="settings_sens_factor">Factor de sensibilidad: %1$.2f dB (Ajuste: %2$.1f dB)</string>
+    <string name="settings_active_file">Archivo activo</string>
+    <string name="settings_calibration">Calibración</string>
+    <string name="settings_calibrated">Se aplica la calibración del usuario a las lecturas.</string>
+    <string name="settings_not_calibrated">No se aplica ninguna calibración del usuario.</string>
+    <string name="settings_about">Acerca de SoundCaliper</string>
+    <string name="settings_no_microphones">No hay entradas de micrófono disponibles.</string>
+    <string name="settings_selected">Seleccionado</string>
+    <string name="settings_apply">Aplicar</string>
+    <string name="settings_calibration_explanation">Reproduce un tono de referencia constante y compara la lectura en vivo con un sonómetro externo fiable. Introduce el nivel de referencia conocido para estimar una corrección para este dispositivo. Los resultados dependen del micrófono del teléfono y de las condiciones de la sala.</string>
+    <string name="settings_current_reading">Lectura actual</string>
+    <string name="settings_reference_level">Nivel de referencia conocido</string>
+    <string name="settings_reference_range">Introduce un valor entre 30 y 130 dB.</string>
+    <string name="settings_microphone_required">Inicia una medición en vivo con el micrófono antes de calibrar.</string>
+    <string name="settings_calibrate">Aplicar calibración</string>
+    <string name="settings_reset_calibration">Restablecer calibración</string>
+    <string name="settings_about_version">Versión 1.0.0</string>
+    <string name="settings_privacy">El audio se procesa en este dispositivo. La aplicación no guarda ni transmite grabaciones del micrófono.</string>
+    <string name="settings_license">Este software de código abierto se distribuye bajo la licencia MIT.</string>
+    <string name="settings_meter_notice">Esta aplicación no es un sonómetro certificado. Los micrófonos de los teléfonos no están calibrados en laboratorio.</string>
+</resources>
